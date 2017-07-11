@@ -1,6 +1,8 @@
+
+
 .square{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	border-radius:10px;
 	background-color: yellow;
 	float: left;
@@ -21,7 +23,7 @@
 }
 
 #start_flash{
-	width:334px;
+	width:250px;
 	height: 40px;
 	font-size: 18px;
 	border-radius: 10px;
@@ -30,6 +32,7 @@
 	text-align: center;
 	line-height: 40px;
 	border:1px solid brown;
+	margin-left:12px;
 }
 
 #start_flash:hover{
@@ -38,7 +41,7 @@
 }
 
 #end_flash{
-	width:334px;
+	width:250px;
 	height: 40px;
 	font-size: 18px;
 	border-radius: 10px;
@@ -49,9 +52,102 @@
 	line-height: 40px;
 	border:1px solid brown;
 	margin-top: 10px;
+	margin-left:12px;
 }
 
 #end_flash:hover{
 	background-color: brown;
 	color: white;
+}
+
+
+@media all and (min-width: 900px) {
+
+*{
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+#container{
+	width:25%;
+	height: 50%;
+}
+
+.square{
+	width: 27%;
+	height: 85%;
+	border-radius:10px;
+	background-color: yellow;
+	float: left;
+	margin:2% 3%;
+}
+
+#top{
+	float: left;
+	height: 30%;
+	width: 100%;
+}
+
+#middle{
+	float: left;
+	clear: both;
+	height: 30%;
+	width: 100%;
+}
+
+#foot{
+	float: left;
+	clear: both;
+	height: 30%;
+	width: 100%;
+}
+
+#footer{
+	clear: both;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	height: 30%;
+}
+
+#start_flash{
+	width:95%;
+	height: 40%;
+	font-size: 1rem;
+	border-radius: 10px;
+	background-color: white;
+	color: brown;
+	text-align: center;
+	line-height: 150%;
+	border:1px solid brown;
+	margin: 2% 2%;
+}
+
+#start_flash:hover{
+	background-color: brown;
+	color: white;
+}
+
+#end_flash{
+	width:95%;
+	height: 40%;
+	font-size: 1rem;
+	border-radius: 10px;
+	background-color: white;
+	color: brown;
+	text-align: center;
+	line-height: 150%;
+	border:1px solid brown;
+	margin: 2% 2%;
+}
+
+#end_flash:hover{
+	background-color: brown;
+	color: white;
+}
 }
